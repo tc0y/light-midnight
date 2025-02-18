@@ -1,0 +1,71 @@
+/**
+ * @name Light Midnight
+ * @description A light dark, rounded discord theme.
+ * @author tcoy
+ * @version 1.0.0
+ * @invite 2sGGzJVQ86
+ * @website https://github.com/tc0y/light-midnight
+ * @source https://github.com/tc0y/light-midnight/blob/master/midnight.theme.css
+ * @authorId 974312724886609922
+*/
+@import url('https://raw.githubusercontent.com/tc0y/light-midnight/refs/heads/main/lightmidnight.css');
+
+:root {
+	--font: 'figtree';
+	--corner-text: 'Light Midnight by tcoy';
+
+	--online-indicator: var(--accent-2);
+	--dnd-indicator: hsl(340, 60%, 70%);
+	--idle-indicator: hsl(50, 60%, 70%);
+	--streaming-indicator: hsl(260, 60%, 70%);
+
+	--accent-1: hsl(190, 70%, 70%);
+	--accent-2: hsl(190, 70%, 58%);
+	--accent-3: hsl(190, 70%, 52%);
+	--accent-4: hsl(190, 70%, 46%);
+	--accent-5: hsl(190, 70%, 40%);
+	--mention: hsla(190, 80%, 62%, 0.1);
+	--mention-hover: hsla(190, 80%, 62%, 0.05);
+
+	--text-0: white;
+	--text-1: var(--text-2);
+	--text-2: hsl(220, 25%, 80%);
+	--text-3: hsl(220, 15%, 70%);
+	--text-4: hsl(220, 15%, 50%);
+	--text-5: hsl(220, 15%, 35%);
+
+	--bg-1: hsl(220, 15%, 30%);
+	--bg-2: hsl(220, 15%, 26%);
+	--bg-3: hsl(220, 15%, 23%);
+	--bg-4: hsl(220, 15%, 20%);
+	--hover: hsla(230, 20%, 50%, 0.1);
+	--active: hsla(220, 20%, 50%, 0.2);
+	--message-hover: hsla(220, 0%, 0%, 0.1);
+
+	--spacing: 12px;
+
+	--list-item-transition: 0.2s ease;
+	--unread-bar-transition: 0.2s ease;
+	--moon-spin-transition: 0.4s ease;
+	--icon-spin-transition: 1s ease;
+
+	--roundness-xl: 22px;
+	--roundness-l: 20px;
+	--roundness-m: 16px;
+	--roundness-s: 12px;
+	--roundness-xs: 10px;
+	--roundness-xxs: 8px;
+
+	--discord-icon: none;
+	--moon-icon: block;
+	--moon-icon-url: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg');
+	--moon-icon-size: auto;
+
+	--login-bg-filter: saturate(0.3) hue-rotate(-15deg) brightness(0.5);
+	--green-to-accent-3-filter: hue-rotate(56deg) saturate(1.4);
+	--blurple-to-accent-3-filter: hue-rotate(304deg) saturate(0.82) brightness(1.2);
+
+	--windows-nav: none;
+	--custom-nav: block;
+}
+
